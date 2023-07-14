@@ -1,0 +1,60 @@
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-container .search-input {
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  margin-left: 50%;
+  margin-top: -33%;
+}
+.main-container .search-input input {
+  height: 40%;
+  width: 50%;
+  border: 1px solid gray;
+  background-color: white;
+  box-shadow: 3px 3px 5px 5px white;
+  color: black;
+}
+.main-container .search-input input::placeholder {
+  color: black;
+}
+
+.main-container .sub-container {
+  height: 45%;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin-left: 3%;
+  margin-top: 8%;
+  box-shadow: 3px 3px 5px 5px gray;
+}
+.main-container .sub-container h5 {
+  height: 13%;
+  width: 13%;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  float: right;
+  margin-top: -5%;
+  margin-left: 1%;
+  text-align: center;
+}
+.main-container .sub-container .avarat-image {
+  height: 80%;
+  width: 80%;
+  border-radius: 5%;
+  border: none;
+  position: relative;
+  margin-left: 5.5%;
+  margin-top: 4%;
+}
+
+.main-container .sub-container h6 {
+  text-align: center;
+}
